@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029/canvas/7"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "floral drawings",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jvbmanc",
+                "name": "jvbmanc"
+            },
+            "created": "2023-11-14T11:42:47.584Z",
+            "modified": "2023-11-14T11:42:53.344Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029/canvas/7",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2956.76953125,205.28770446777344,718.507080078125,4814.930068969727"
+        }
+    },
+    "id": "c27575d6-539a-4ddd-8c69-026f410c62e5.json",
+    "motivation": "commenting"
+}
