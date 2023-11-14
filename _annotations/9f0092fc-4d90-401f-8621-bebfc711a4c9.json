@@ -1,0 +1,38 @@
+---
+canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029/canvas/4"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Code comment",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jvbmanc",
+                "name": "jvbmanc"
+            },
+            "created": "2023-11-14T11:41:02.239Z",
+            "modified": "2023-11-14T11:41:04.873Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029",
+                "type": "Manifest"
+            },
+            "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00029/canvas/4",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=249.70140075683594,114.30793762207031,615.8631744384766,559.8755950927734"
+        }
+    },
+    "id": "9f0092fc-4d90-401f-8621-bebfc711a4c9.json",
+    "motivation": "commenting"
+}
